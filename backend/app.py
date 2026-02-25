@@ -22,7 +22,7 @@ def predict():
 
     return jsonify({
         "prediction": int(prediction),
-        "result": "Diabetes" if prediction == 1 else "No Diabetes"
+        "result": "Diabetes(High Risk)" if prediction == 1 else "No Diabetes"
     })
 
 if __name__ == "__main__":
