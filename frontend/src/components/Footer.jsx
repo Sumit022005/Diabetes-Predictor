@@ -12,7 +12,7 @@ const Footer = () => {
             {" "}
             <img
               className="size-1/4 "
-              src="./public/Black and White Circular Art & Design Logo.png"
+              src="./Black and White Circular Art & Design Logo.png"
               alt=""
             />
           </h2>
